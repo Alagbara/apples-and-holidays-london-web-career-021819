@@ -71,7 +71,7 @@ def all_supplies_in_holidays(holiday_hash)
   
   holiday_hash.map do |season, season_hash|
     season_hash.map do |holiday, supplies|
-     
+     biding.pry 
    end
  end
 
