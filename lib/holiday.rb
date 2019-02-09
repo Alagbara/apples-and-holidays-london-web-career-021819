@@ -69,9 +69,11 @@ def all_supplies_in_holidays(holiday_hash)
   #   Fourth Of July: Fireworks, BBQ
   # etc.
   
-  holiday_hash.map do |holiday, supplies|
-     supplies
-   end.flatten
+  holiday_hash.map do |season, season_hash|
+    season_hash.map do |holiday, supplies|
+     
+   end
+ end
 
 end
 
